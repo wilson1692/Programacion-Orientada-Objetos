@@ -19,7 +19,7 @@ public class multiplicar {
        double resultado=1;
         for (int i = 1; i <= 40; i++) {
             if (i % 2 == 0) {
-
+                //Esta linea de codigo sirve para imprimir un mensaje 
                 System.out.println("numero par es  " + i);
                 resultado = resultado * i;
                 System.out.println("multiplicacion " + resultado);
